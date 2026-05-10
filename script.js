@@ -75,5 +75,5 @@ function sendWA() {
   const layanan = document.querySelector('select').value || 'Belum dipilih';
   const pesan   = document.querySelector('textarea').value || '-';
   const msg = `Halo SYK Smart Technology 👋\n\n*Nama:* ${nama}\n*No. HP:* ${hp}\n*Layanan:* ${layanan}\n*Pesan:* ${pesan}`;
-  window.open(`https://wa.me/6281234567890?text=${encodeURIComponent(msg)}`, '_blank');
+  window.open(`https://wa.me/6282164114110?text=${encodeURIComponent(msg)}`, '_blank');
 }
